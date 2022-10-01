@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="267.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#26222f" layoutX="120.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhập Thông Tin" textAlignment="CENTER">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ Tên : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="122.0" layoutY="86.0" promptText="nhập họ tên" />
+      <Text layoutX="23.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="122.0" layoutY="125.0" promptText="nhập email" />
+      <Text layoutX="23.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Năm Sinh : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="122.0" layoutY="161.0" promptText="ngày tháng năm sinh" />
+      <Text layoutX="24.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="122.0" layoutY="197.0" prefHeight="53.0" prefWidth="200.0" promptText="nhập địa chỉ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="-5.0" layoutY="287.0" prefHeight="144.0" prefWidth="589.0" text="Information :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>
